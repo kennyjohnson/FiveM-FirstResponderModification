@@ -8,4 +8,6 @@ function FirstRepsonderMod.Initialize()
   end
 end
 
-  
+Citizen.CreateThread( function()
+    FirstRepsonderMod.Initialize()
+end
