@@ -1,4 +1,5 @@
 FirstRepsonderMod = {}
+FirstRepsonderMod.Validated = true
 function FirstRepsonderMod.Initialize()
   if FirstResponderMod.Validated then
     console.log("First Responder Modification Loaded Successfully\nCreated by kennyjohnson")
